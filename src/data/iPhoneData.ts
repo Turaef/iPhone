@@ -6,11 +6,20 @@ export const iPhoneData: iPhone[] = [
     name: 'iPhone 2G',
     year: '2007',
     releaseDate: 'June 29, 2007',
-    display: '3.5 inch OLED, 320×480 pixels',
-    camera: '2.0 MP',
-    processor: 'Samsung 32-bit RISC ARM',
-    ram: '128 MB',
-    price: '$499',
+    display: '3.5-inch TFT capacitive touchscreen, 320 x 480 pixels',
+    camera: '2 MP rear camera, f/2.8',
+    processor: 'Samsung 32-bit RISC ARM 11 620 MHz',
+    ram: '128 MB eDRAM',
+    storage: ['4GB', '8GB', '16GB'],
+    features: [
+      'Multi-touch display',
+      'Accelerometer',
+      'Safari web browser',
+      'iTunes integration',
+      'Visual voicemail'
+    ],
+    price: '$499-$599',
+    description: 'The original iPhone that revolutionized the smartphone industry with its innovative touch interface and mobile web browser.',
     imageUrl: '/images/iphone-2g.png',
   },
   {
@@ -18,11 +27,20 @@ export const iPhoneData: iPhone[] = [
     name: 'iPhone 3G',
     year: '2008',
     releaseDate: 'July 11, 2008',
-    display: '3.5 inch LCD, 320×480 pixels',
-    camera: '2.0 MP',
-    processor: 'Samsung 32-bit RISC ARM',
-    ram: '128 MB',
+    display: '3.5-inch TFT capacitive touchscreen, 320 x 480 pixels',
+    camera: '2 MP rear camera, f/2.8',
+    processor: 'Samsung 32-bit RISC ARM 11 620 MHz',
+    ram: '128 MB eDRAM',
+    storage: ['8GB', '16GB'],
+    features: [
+      '3G connectivity',
+      'GPS',
+      'App Store',
+      'Assisted GPS',
+      'Microsoft Exchange support'
+    ],
     price: '$599',
+    description: 'The iPhone 3G introduced 3G connectivity and GPS, making it a more capable device for navigation and faster data speeds.',
     imageUrl: '/images/iphone-3g.png',
   },
   {
@@ -30,11 +48,20 @@ export const iPhoneData: iPhone[] = [
     name: 'iPhone 3GS',
     year: '2009',
     releaseDate: 'June 19, 2009',
-    display: '3.5 inch LCD, 320×480 pixels',
-    camera: '3.0 MP',
-    processor: 'Samsung S5PC100 600 MHz',
-    ram: '256 MB',
-    price: '$599',
+    display: '3.5-inch TFT capacitive touchscreen, 320 x 480 pixels',
+    camera: '3.15 MP rear camera, autofocus, video recording',
+    processor: 'Samsung APL0298C05 600 MHz',
+    ram: '256 MB DRAM',
+    storage: ['8GB', '16GB', '32GB'],
+    features: [
+      'Voice Control',
+      'Digital compass',
+      'Video recording',
+      'Nike+ support',
+      'Improved performance'
+    ],
+    price: '$599-$699',
+    description: 'The iPhone 3GS brought significant performance improvements and introduced video recording capabilities.',
     imageUrl: '/images/iphone-3gs.png',
   },
   {
@@ -42,11 +69,20 @@ export const iPhoneData: iPhone[] = [
     name: 'iPhone 4',
     year: '2010',
     releaseDate: 'June 24, 2010',
-    display: '3.5 inch Retina, 640×960 pixels',
-    camera: '5.0 MP',
-    processor: 'Apple A4',
-    ram: '512 MB',
-    price: '$599',
+    display: '3.5-inch Retina display, 640 x 960 pixels',
+    camera: '5 MP rear camera, LED flash, 720p video',
+    processor: 'Apple A4 1 GHz',
+    ram: '512 MB DRAM',
+    storage: ['8GB', '16GB', '32GB'],
+    features: [
+      'Retina Display',
+      'FaceTime',
+      'Front-facing camera',
+      'Gyroscope',
+      'Glass and steel design'
+    ],
+    price: '$599-$699',
+    description: 'The iPhone 4 introduced the stunning Retina display and a revolutionary design with glass and stainless steel construction.',
     imageUrl: '/images/iphone-4.png',
   },
   {
@@ -54,11 +90,20 @@ export const iPhoneData: iPhone[] = [
     name: 'iPhone 4S',
     year: '2011',
     releaseDate: 'October 14, 2011',
-    display: '3.5 inch Retina, 640×960 pixels',
-    camera: '8.0 MP',
-    processor: 'Apple A5',
-    ram: '512 MB',
-    price: '$649',
+    display: '3.5-inch Retina display, 640 x 960 pixels',
+    camera: '8 MP rear camera, LED flash, 1080p video',
+    processor: 'Apple A5 dual-core 1 GHz',
+    ram: '512 MB DRAM',
+    storage: ['8GB', '16GB', '32GB', '64GB'],
+    features: [
+      'Siri',
+      'iCloud',
+      'iMessage',
+      'AirPlay Mirroring',
+      'Improved camera'
+    ],
+    price: '$649-$849',
+    description: 'The iPhone 4S introduced Siri, a revolutionary voice assistant, and brought significant camera improvements.',
     imageUrl: '/images/iphone-4s.png',
   },
   {
@@ -66,11 +111,20 @@ export const iPhoneData: iPhone[] = [
     name: 'iPhone 5',
     year: '2012',
     releaseDate: 'September 21, 2012',
-    display: '4.0 inch Retina, 640×1136 pixels',
-    camera: '8.0 MP',
-    processor: 'Apple A6',
-    ram: '1 GB',
-    price: '$649',
+    display: '4-inch Retina display, 640 x 1136 pixels',
+    camera: '8 MP rear camera, LED flash, 1080p video',
+    processor: 'Apple A6 dual-core 1.3 GHz',
+    ram: '1 GB DRAM',
+    storage: ['16GB', '32GB', '64GB'],
+    features: [
+      'Larger 4-inch display',
+      'Lightning connector',
+      'LTE support',
+      'Improved camera',
+      'Aluminum design'
+    ],
+    price: '$649-$849',
+    description: 'The iPhone 5 featured a larger 4-inch display and introduced the Lightning connector, along with a sleek aluminum design.',
     imageUrl: '/images/iphone-5.png',
   },
   {
@@ -82,7 +136,16 @@ export const iPhoneData: iPhone[] = [
     camera: '8.0 MP',
     processor: 'Apple A6',
     ram: '1 GB',
+    storage: ['8GB', '16GB', '32GB'],
+    features: [
+      'Colorful polycarbonate design',
+      'Lightning connector',
+      'FaceTime HD camera',
+      'iSight camera',
+      'Touch ID'
+    ],
     price: '$549',
+    description: 'The iPhone 5C brought a fresh, colorful design to the iPhone lineup with its polycarbonate body, while maintaining the powerful features of the iPhone 5.',
     imageUrl: '/images/iphone-5c.png',
   },
   {
@@ -94,7 +157,16 @@ export const iPhoneData: iPhone[] = [
     camera: '8.0 MP',
     processor: 'Apple A7',
     ram: '1 GB',
+    storage: ['16GB', '32GB', '64GB'],
+    features: [
+      'Touch ID fingerprint sensor',
+      'M7 motion coprocessor',
+      'True Tone flash',
+      'Slo-mo video',
+      'Burst mode'
+    ],
     price: '$649',
+    description: 'The iPhone 5S introduced Touch ID and the A7 chip, marking the beginning of biometric authentication and 64-bit mobile computing.',
     imageUrl: '/images/iphone-5s.png',
   },
   {
@@ -106,7 +178,16 @@ export const iPhoneData: iPhone[] = [
     camera: '8.0 MP',
     processor: 'Apple A8',
     ram: '1 GB',
+    storage: ['16GB', '64GB', '128GB'],
+    features: [
+      'Larger display',
+      'Apple Pay',
+      'Focus Pixels',
+      'Touch ID',
+      'M8 motion coprocessor'
+    ],
     price: '$649',
+    description: 'The iPhone 6 introduced a larger display and Apple Pay, revolutionizing mobile payments and setting new standards for smartphone design.',
     imageUrl: '/images/iphone-6.png',
   },
   {
@@ -118,7 +199,16 @@ export const iPhoneData: iPhone[] = [
     camera: '8.0 MP',
     processor: 'Apple A8',
     ram: '1 GB',
+    storage: ['16GB', '64GB', '128GB'],
+    features: [
+      'Optical image stabilization',
+      'Larger display',
+      'Apple Pay',
+      'Touch ID',
+      'M8 motion coprocessor'
+    ],
     price: '$749',
+    description: 'The iPhone 6 Plus introduced a new era of large-screen iPhones with optical image stabilization and enhanced camera capabilities.',
     imageUrl: '/images/iphone-6-plus.png',
   },
   {
@@ -130,7 +220,16 @@ export const iPhoneData: iPhone[] = [
     camera: '12.0 MP',
     processor: 'Apple A9',
     ram: '2 GB',
+    storage: ['16GB', '32GB', '64GB', '128GB'],
+    features: [
+      '3D Touch',
+      'Live Photos',
+      '4K video recording',
+      'Touch ID',
+      'M9 motion coprocessor'
+    ],
     price: '$649',
+    description: 'The iPhone 6S introduced 3D Touch and Live Photos, along with significant camera improvements including 4K video recording.',
     imageUrl: '/images/iphone-6s.png',
   },
   {
@@ -142,7 +241,16 @@ export const iPhoneData: iPhone[] = [
     camera: '12.0 MP',
     processor: 'Apple A9',
     ram: '2 GB',
+    storage: ['16GB', '32GB', '64GB', '128GB'],
+    features: [
+      '3D Touch',
+      'Live Photos',
+      '4K video recording',
+      'Optical image stabilization',
+      'M9 motion coprocessor'
+    ],
     price: '$749',
+    description: 'The iPhone 6S Plus combined the larger display with new features like 3D Touch and improved camera capabilities.',
     imageUrl: '/images/iphone-6s-plus.png',
   },
   {
@@ -154,7 +262,16 @@ export const iPhoneData: iPhone[] = [
     camera: '12.0 MP',
     processor: 'Apple A9',
     ram: '2 GB',
+    storage: ['16GB', '32GB', '64GB', '128GB'],
+    features: [
+      'Compact design',
+      'Touch ID',
+      'Apple Pay',
+      'Live Photos',
+      '4K video recording'
+    ],
     price: '$399',
+    description: 'The first iPhone SE brought premium features in a compact design, offering powerful performance at an affordable price point.',
     imageUrl: '/images/iphone-se-1.png',
   },
   {
@@ -166,7 +283,16 @@ export const iPhoneData: iPhone[] = [
     camera: '12.0 MP',
     processor: 'Apple A10 Fusion',
     ram: '2 GB',
+    storage: ['32GB', '128GB', '256GB'],
+    features: [
+      'Water resistance',
+      'Stereo speakers',
+      'Taptic Engine',
+      'Wide color display',
+      'Touch ID'
+    ],
     price: '$649',
+    description: 'The iPhone 7 introduced water resistance and improved audio capabilities, while removing the headphone jack in favor of wireless audio.',
     imageUrl: '/images/iphone-7.png',
   },
   {
@@ -178,7 +304,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A10 Fusion',
     ram: '3 GB',
+    storage: ['32GB', '128GB', '256GB'],
+    features: [
+      'Dual cameras',
+      'Portrait mode',
+      'Water resistance',
+      'Stereo speakers',
+      'Touch ID'
+    ],
     price: '$769',
+    description: 'The iPhone 7 Plus introduced dual cameras and Portrait mode, revolutionizing mobile photography with depth effects.',
     imageUrl: '/images/iphone-7-plus.png',
   },
   {
@@ -190,7 +325,16 @@ export const iPhoneData: iPhone[] = [
     camera: '12.0 MP',
     processor: 'Apple A11 Bionic',
     ram: '2 GB',
+    storage: ['64GB', '128GB', '256GB'],
+    features: [
+      'Wireless charging',
+      'Glass design',
+      'True Tone display',
+      'Touch ID',
+      'Portrait mode'
+    ],
     price: '$699',
+    description: 'The iPhone 8 introduced wireless charging and a glass design, while maintaining the familiar form factor with improved performance.',
     imageUrl: '/images/iphone-8.png',
   },
   {
@@ -202,7 +346,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A11 Bionic',
     ram: '3 GB',
+    storage: ['64GB', '128GB', '256GB'],
+    features: [
+      'Wireless charging',
+      'Dual cameras',
+      'Portrait mode',
+      'Glass design',
+      'Touch ID'
+    ],
     price: '$799',
+    description: 'The iPhone 8 Plus combined wireless charging with dual cameras and Portrait mode in a premium glass design.',
     imageUrl: '/images/iphone-8-plus.png',
   },
   {
@@ -214,7 +367,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A11 Bionic',
     ram: '3 GB',
+    storage: ['64GB', '256GB'],
+    features: [
+      'Face ID',
+      'Edge-to-edge display',
+      'Animoji',
+      'Portrait mode',
+      'Wireless charging'
+    ],
     price: '$999',
+    description: 'The iPhone X revolutionized the iPhone with Face ID, an edge-to-edge display, and a new design that set the standard for future models.',
     imageUrl: '/images/iphone-x.png',
   },
   {
@@ -226,7 +388,16 @@ export const iPhoneData: iPhone[] = [
     camera: '12.0 MP',
     processor: 'Apple A12 Bionic',
     ram: '3 GB',
+    storage: ['64GB', '128GB', '256GB'],
+    features: [
+      'Face ID',
+      'Liquid Retina display',
+      'Portrait mode',
+      'Smart HDR',
+      'Wireless charging'
+    ],
     price: '$749',
+    description: 'The iPhone XR offered a perfect balance of features and value, with a beautiful Liquid Retina display and powerful A12 Bionic chip.',
     imageUrl: '/images/iphone-xr.png',
   },
   {
@@ -238,7 +409,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A12 Bionic',
     ram: '4 GB',
+    storage: ['64GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'Smart HDR',
+      'Dual SIM',
+      'Portrait mode',
+      'Wireless charging'
+    ],
     price: '$999',
+    description: 'The iPhone XS refined the iPhone X design with improved performance, better camera capabilities, and dual SIM support.',
     imageUrl: '/images/iphone-xs.png',
   },
   {
@@ -250,7 +430,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A12 Bionic',
     ram: '4 GB',
+    storage: ['64GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'Smart HDR',
+      'Dual SIM',
+      'Portrait mode',
+      'Wireless charging'
+    ],
     price: '$1099',
+    description: 'The iPhone XS Max offered the largest display yet in an iPhone, with all the premium features of the XS in a larger form factor.',
     imageUrl: '/images/iphone-xs-max.png',
   },
   {
@@ -262,7 +451,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A13 Bionic',
     ram: '4 GB',
+    storage: ['64GB', '128GB', '256GB'],
+    features: [
+      'Face ID',
+      'Night mode',
+      'Ultra Wide camera',
+      'Smart HDR',
+      'Wireless charging'
+    ],
     price: '$699',
+    description: 'The iPhone 11 brought dual cameras and Night mode to a more accessible price point, with powerful performance and all-day battery life.',
     imageUrl: '/images/iphone-11.png',
   },
   {
@@ -274,7 +472,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Triple 12.0 MP',
     processor: 'Apple A13 Bionic',
     ram: '4 GB',
+    storage: ['64GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'Night mode',
+      'Triple cameras',
+      'Smart HDR',
+      'Wireless charging'
+    ],
     price: '$999',
+    description: 'The iPhone 11 Pro introduced a triple-camera system and Super Retina XDR display, setting new standards for mobile photography.',
     imageUrl: '/images/iphone-11-pro.png',
   },
   {
@@ -286,7 +493,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Triple 12.0 MP',
     processor: 'Apple A13 Bionic',
     ram: '4 GB',
+    storage: ['64GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'Night mode',
+      'Triple cameras',
+      'Smart HDR',
+      'Wireless charging'
+    ],
     price: '$1099',
+    description: 'The iPhone 11 Pro Max combined the largest display with the most advanced camera system and longest battery life in an iPhone.',
     imageUrl: '/images/iphone-11-pro-max.png',
   },
   {
@@ -298,7 +514,16 @@ export const iPhoneData: iPhone[] = [
     camera: '12.0 MP',
     processor: 'Apple A13 Bionic',
     ram: '3 GB',
+    storage: ['64GB', '128GB', '256GB'],
+    features: [
+      'Touch ID',
+      'Portrait mode',
+      'Smart HDR',
+      'Wireless charging',
+      'Fast charging'
+    ],
     price: '$399',
+    description: 'The second-generation iPhone SE brought the A13 Bionic chip and advanced camera features to an affordable price point.',
     imageUrl: '/images/iphone-se-2.png',
   },
   {
@@ -310,7 +535,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A14 Bionic',
     ram: '4 GB',
+    storage: ['64GB', '128GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'Ceramic Shield',
+      'Night mode'
+    ],
     price: '$699',
+    description: 'The iPhone 12 mini offered the full iPhone 12 experience in a compact form factor, perfect for those who prefer smaller phones.',
     imageUrl: '/images/iphone-12-mini.png',
   },
   {
@@ -322,7 +556,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A14 Bionic',
     ram: '4 GB',
+    storage: ['64GB', '128GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'Ceramic Shield',
+      'Night mode'
+    ],
     price: '$799',
+    description: 'The iPhone 12 introduced MagSafe, 5G, and Ceramic Shield, along with a new flat-edge design that harkened back to the iPhone 5.',
     imageUrl: '/images/iphone-12.png',
   },
   {
@@ -334,7 +577,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Triple 12.0 MP + LiDAR',
     processor: 'Apple A14 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB', '1TB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'LiDAR Scanner',
+      'ProRAW'
+    ],
     price: '$999',
+    description: 'The iPhone 12 Pro added LiDAR Scanner and ProRAW capabilities, along with premium materials and enhanced camera features.',
     imageUrl: '/images/iphone-12-pro.png',
   },
   {
@@ -346,7 +598,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Triple 12.0 MP + LiDAR',
     processor: 'Apple A14 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB', '1TB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'LiDAR Scanner',
+      'ProRAW'
+    ],
     price: '$1099',
+    description: 'The iPhone 12 Pro Max offered the largest display and most advanced camera system in the iPhone 12 lineup.',
     imageUrl: '/images/iphone-12-pro-max.png',
   },
   {
@@ -358,7 +619,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A15 Bionic',
     ram: '4 GB',
+    storage: ['128GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'Cinematic mode',
+      'Photographic Styles'
+    ],
     price: '$699',
+    description: 'The iPhone 13 mini brought the A15 Bionic chip and advanced camera features to a compact form factor.',
     imageUrl: '/images/iphone-13-mini.png',
   },
   {
@@ -370,7 +640,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A15 Bionic',
     ram: '4 GB',
+    storage: ['128GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'Cinematic mode',
+      'Photographic Styles'
+    ],
     price: '$799',
+    description: 'The iPhone 13 introduced Cinematic mode and Photographic Styles, along with improved battery life and performance.',
     imageUrl: '/images/iphone-13.png',
   },
   {
@@ -382,7 +661,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Triple 12.0 MP + LiDAR',
     processor: 'Apple A15 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB', '1TB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'ProMotion',
+      'ProRAW'
+    ],
     price: '$999',
+    description: 'The iPhone 13 Pro introduced ProMotion display technology and enhanced Pro camera features for professional photography.',
     imageUrl: '/images/iphone-13-pro.png',
   },
   {
@@ -394,7 +682,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Triple 12.0 MP + LiDAR',
     processor: 'Apple A15 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB', '1TB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'ProMotion',
+      'ProRAW'
+    ],
     price: '$1099',
+    description: 'The iPhone 13 Pro Max combined the largest display with ProMotion technology and the most advanced camera system.',
     imageUrl: '/images/iphone-13-pro-max.png',
   },
   {
@@ -406,7 +703,16 @@ export const iPhoneData: iPhone[] = [
     camera: '12.0 MP',
     processor: 'Apple A15 Bionic',
     ram: '4 GB',
+    storage: ['64GB', '128GB', '256GB'],
+    features: [
+      'Touch ID',
+      '5G',
+      'Portrait mode',
+      'Smart HDR',
+      'Wireless charging'
+    ],
     price: '$429',
+    description: 'The third-generation iPhone SE brought 5G and the A15 Bionic chip to an affordable price point, maintaining the classic design.',
     imageUrl: '/images/iphone-se-3.png',
   },
   {
@@ -418,7 +724,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A15 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'Emergency SOS',
+      'Crash Detection'
+    ],
     price: '$799',
+    description: 'The iPhone 14 introduced Emergency SOS via satellite and Crash Detection, along with improved camera capabilities.',
     imageUrl: '/images/iphone-14.png',
   },
   {
@@ -430,7 +745,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 12.0 MP',
     processor: 'Apple A15 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB'],
+    features: [
+      'Face ID',
+      'MagSafe',
+      '5G',
+      'Emergency SOS',
+      'Crash Detection'
+    ],
     price: '$899',
+    description: 'The iPhone 14 Plus offered the largest display in the standard iPhone lineup, with all the features of the iPhone 14.',
     imageUrl: '/images/iphone-14-plus.png',
   },
   {
@@ -442,7 +766,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Triple 48.0 MP + 12.0 MP + 12.0 MP + LiDAR',
     processor: 'Apple A16 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB', '1TB'],
+    features: [
+      'Dynamic Island',
+      'Always-On display',
+      'ProMotion',
+      'Emergency SOS',
+      'Crash Detection'
+    ],
     price: '$999',
+    description: 'The iPhone 14 Pro introduced the Dynamic Island and Always-On display, along with a groundbreaking 48MP camera system.',
     imageUrl: '/images/iphone-14-pro.png',
   },
   {
@@ -454,7 +787,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Triple 48.0 MP + 12.0 MP + 12.0 MP + LiDAR',
     processor: 'Apple A16 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB', '1TB'],
+    features: [
+      'Dynamic Island',
+      'Always-On display',
+      'ProMotion',
+      'Emergency SOS',
+      'Crash Detection'
+    ],
     price: '$1099',
+    description: 'The iPhone 14 Pro Max combined the largest display with the Dynamic Island and most advanced camera system.',
     imageUrl: '/images/iphone-14-pro-max.png',
   },
   {
@@ -466,7 +808,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 48.0 MP + 12.0 MP',
     processor: 'Apple A16 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB'],
+    features: [
+      'USB-C',
+      'Dynamic Island',
+      'MagSafe',
+      '5G',
+      'Emergency SOS'
+    ],
     price: '$799',
+    description: 'The iPhone 15 introduced USB-C and brought the Dynamic Island to the standard iPhone lineup, along with improved camera capabilities.',
     imageUrl: '/images/iphone-15.png',
   },
   {
@@ -478,7 +829,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Dual 48.0 MP + 12.0 MP',
     processor: 'Apple A16 Bionic',
     ram: '6 GB',
+    storage: ['128GB', '256GB', '512GB'],
+    features: [
+      'USB-C',
+      'Dynamic Island',
+      'MagSafe',
+      '5G',
+      'Emergency SOS'
+    ],
     price: '$899',
+    description: 'The iPhone 15 Plus offered the largest display in the standard iPhone lineup, with all the features of the iPhone 15.',
     imageUrl: '/images/iphone-15-plus.png',
   },
   {
@@ -490,7 +850,16 @@ export const iPhoneData: iPhone[] = [
     camera: 'Triple 48.0 MP + 12.0 MP + 12.0 MP + LiDAR',
     processor: 'Apple A17 Pro',
     ram: '8 GB',
+    storage: ['128GB', '256GB', '512GB', '1TB'],
+    features: [
+      'USB-C with Thunderbolt',
+      'Dynamic Island',
+      'Action button',
+      'Titanium design',
+      'ProMotion'
+    ],
     price: '$999',
+    description: 'The iPhone 15 Pro introduced the Action button and titanium design, along with USB-C with Thunderbolt support.',
     imageUrl: '/images/iphone-15-pro.png',
   },
   {
@@ -498,20 +867,34 @@ export const iPhoneData: iPhone[] = [
     name: 'iPhone 15 Pro Max',
     year: '2023',
     releaseDate: 'September 22, 2023',
-    display: '6.7 inch Super Retina XDR, 1290×2796 pixels',
-    camera: 'Triple 48.0 MP + 12.0 MP + 12.0 MP + LiDAR',
     processor: 'Apple A17 Pro',
+    display: '6.7-inch Super Retina XDR OLED, 2796 x 1290 pixels',
+    camera: '48MP Main, 12MP Ultra Wide, 12MP 5x Telephoto',
     ram: '8 GB',
-    price: '$1199',
     imageUrl: '/images/iphone-15-pro-max.png',
+    dimensions: '159.9 x 76.7 x 8.25 mm',
+    storage: ['256GB', '512GB', '1TB'],
+    colors: ['Natural Titanium', 'Blue Titanium', 'White Titanium', 'Black Titanium'],
+    features: [
+      'USB-C with Thunderbolt',
+      'Dynamic Island',
+      'ProMotion display',
+      'Always-On display',
+      'Action button',
+      'Titanium design'
+    ],
+    price: 'Starting at $1,199',
+    description: 'The iPhone 15 Pro Max features a groundbreaking titanium design, A17 Pro chip for next-level gaming, and USB-C with USB 3 speeds. The pro camera system sets new standards with a 5x Telephoto lens.'
   },
   {
     id: 'iphone7',
     name: 'iPhone 7',
     year: '2016',
+    releaseDate: 'September 16, 2016',
     processor: 'A10 Fusion chip',
     display: '4.7-inch Retina HD display (1334 x 750)',
     camera: '12MP Wide camera, ƒ/1.8 aperture, 7MP FaceTime HD camera',
+    ram: '2 GB',
     imageUrl: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone7-black?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1582330165050',
     dimensions: '138.3 x 67.1 x 7.1 mm',
     storage: ['32GB', '128GB', '256GB'],
@@ -530,9 +913,11 @@ export const iPhoneData: iPhone[] = [
     id: 'iphone15-pro-max',
     name: 'iPhone 15 Pro Max',
     year: '2023',
+    releaseDate: 'September 22, 2023',
     processor: 'A17 Pro Bionic',
     display: '6.7-inch Super Retina XDR OLED, 2796 x 1290 pixels',
     camera: '48MP Main + 12MP Ultra Wide + 12MP Telephoto with 5x optical zoom',
+    ram: '8 GB',
     imageUrl: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-max-natural-titanium-select?wid=940&hei=1112&fmt=png-alpha',
     dimensions: '159.9 x 76.7 x 8.25 mm',
     storage: ['256GB', '512GB', '1TB'],
@@ -551,9 +936,11 @@ export const iPhoneData: iPhone[] = [
     id: 'iphone14-pro',
     name: 'iPhone 14 Pro',
     year: '2022',
+    releaseDate: 'September 16, 2022',
     processor: 'A16 Bionic',
     display: '6.1-inch Super Retina XDR OLED, 2556 x 1179 pixels',
     camera: '48MP Main + 12MP Ultra Wide + 12MP Telephoto',
+    ram: '6 GB',
     imageUrl: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch?wid=5120&hei=2880&fmt=p-jpg',
     dimensions: '147.5 x 71.5 x 7.85 mm',
     storage: ['128GB', '256GB', '512GB', '1TB'],
@@ -572,9 +959,11 @@ export const iPhoneData: iPhone[] = [
     id: 'iphone13',
     name: 'iPhone 13',
     year: '2021',
+    releaseDate: 'September 24, 2021',
     processor: 'A15 Bionic',
     display: '6.1-inch Super Retina XDR OLED, 2532 x 1170 pixels',
     camera: 'Dual 12MP camera system with Wide and Ultra Wide',
+    ram: '4 GB',
     imageUrl: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-finish-select-202207-6-1inch?wid=5120&hei=2880&fmt=p-jpg',
     dimensions: '146.7 x 71.5 x 7.65 mm',
     storage: ['128GB', '256GB', '512GB'],
