@@ -8,7 +8,7 @@ function App() {
   const [phones] = useState<iPhone[]>(iPhoneData);
 
   return (
-    <div className="bg-gradient-to-b from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800 text-black dark:text-white">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-200 dark:from-neutral-900 dark:to-neutral-800 text-black dark:text-white">
       <IPhoneGallery phones={phones} />
       <div className="py-10">
         <SimpleIPhoneGallery />

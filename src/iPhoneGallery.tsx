@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import galleryData from './iphoneGalleryData.json';
 
+// Default placeholder image for missing iPhone images
+const DEFAULT_PLACEHOLDER = "https://images.unsplash.com/photo-1592434134763-c83411b3ab1a?auto=format&fit=crop&w=800";
+
 interface IPhone {
   model: string;
   image: string;
@@ -15,19 +18,29 @@ const SimpleIPhoneGallery: React.FC = () => {
 
   return (
     <div className="container mx-auto py-8">
-      <h2 className="text-3xl font-bold text-center mb-8">iPhone Evolution</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">iPhone Showcase</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
         {iphones.map((iphone, index) => (
           <div 
             key={index}
-            className="bg-white dark:bg-neutral-900 rounded-2xl shadow-xl hover:shadow-2xl p-6 text-center transition-all duration-300 transform hover:-translate-y-1"
+            className="bg-white dark:bg-neutral-900 rounded-2xl shadow-xl hover:shadow-2xl p-6 transition-all duration-300 transform hover:-translate-y-1 border border-neutral-200 dark:border-neutral-800"
           >
-            <img 
-              src={iphone.image} 
-              alt={`${iphone.model} image`}
-              className="rounded-xl shadow-md mb-3 object-cover h-48 w-full"
-            />
-            <h3 className="text-xl font-semibold mt-4">{iphone.model}</h3>
+            <div className="flex justify-center">
+              <img 
+                src={iphone.image || DEFAULT_PLACEHOLDER} 
+                alt={`${iphone.model} image`}
+                className="h-48 w-full object-cover rounded-xl shadow-sm mb-4"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.onerror = null;
+                  target.src = DEFAULT_PLACEHOLDER;
+                }}
+              />
+            </div>
+            <h3 className="text-xl font-bold text-neutral-800 dark:text-white mb-2 text-center">{iphone.model}</h3>
+            <div className="mt-2 text-center">
+              <span className="text-sm text-neutral-600 dark:text-neutral-300">{iphone.model.includes("iPhone") ? "Apple " + iphone.model : "iPhone " + iphone.model}</span>
+            </div>
           </div>
         ))}
       </div>
