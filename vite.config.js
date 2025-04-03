@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/iPhone/',
   build: {
     outDir: 'dist',
+    assetsDir: 'assets',
     emptyOutDir: true
   }
 }) 
