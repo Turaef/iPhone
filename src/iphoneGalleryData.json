@@ -1,0 +1,34 @@
+[
+  {
+    "model": "iPhone 2G",
+    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
+  },
+  {
+    "model": "iPhone 4",
+    "image": "https://images.unsplash.com/photo-1616430765481-315b2dc5d4d4"
+  },
+  {
+    "model": "iPhone 5S",
+    "image": "https://images.unsplash.com/photo-1589394810845-378bdfd76f97"
+  },
+  {
+    "model": "iPhone 6",
+    "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231"
+  },
+  {
+    "model": "iPhone X",
+    "image": "https://images.unsplash.com/photo-1556656793-08538906a9f8"
+  },
+  {
+    "model": "iPhone 11 Pro",
+    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195409"
+  },
+  {
+    "model": "iPhone 13 Pro",
+    "image": "https://images.unsplash.com/photo-1631452180513-978ea3abdc4c"
+  },
+  {
+    "model": "iPhone 15 Pro Max",
+    "image": "https://images.unsplash.com/photo-1700088574432-7f0f93f89be7"
+  }
+] 
